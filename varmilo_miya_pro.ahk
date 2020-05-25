@@ -8,6 +8,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ;----------------------------------------------------------;
 ; 主要针对阿米洛miya pro 68键键盘进行配置
 ;----------------------------------------------------------;
+SetCapsLockState, AlwaysOff			; 禁用 Capslock 键
 ; 按键重映射
 PgUp::Home
 PgDn::End
